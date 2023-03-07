@@ -1,0 +1,63 @@
+.footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    /*background: linear-gradient(90deg, rgba(1,140,181,1) 0%, rgb(3, 1, 103) 100%, rgba(0,212,255,1) 100%);*/
+
+}
+.logoSocialNet{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+}
+.logoSocialNet a{
+    margin-right: 15px;
+}
+.logoSocialNet a:hover{
+    color: #ffdd40;
+}
+.footerMenu{
+    border-color: white;
+    display: flex;
+}
+.footerMenu a{
+    color: white;
+}
+.footerCont{
+    color: white;
+}
+.footerCont h1{
+    margin-bottom: 20px;
+
+}
+.footerCont p{
+    margin-bottom: 10px;
+}
+.footerContAndMAp{
+    width: 70%;
+    margin: 20px 15% ;
+    display: flex;
+    justify-content: space-between;
+}
+.footer hr{
+    color: white;
+    height: 5px;
+    margin: 35px 16%;
+    background-color: white;
+    border-radius: 15px;
+}
+.map iframe{
+    border-radius: 15px;
+}
+.footerYear{
+    color: white;
+    width: 70%;
+    margin: 10px 15% ;
+    display: flex;
+    justify-content: space-between;
+}
+.footerMenu a {
+    margin-left: 15px;
+}
