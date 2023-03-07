@@ -2,6 +2,8 @@ import React, {useState} from 'react';
 import style from './Navbar.module.css';
 import Logo_2 from '../../asserts/logo_2.png';
 import {AiOutlineMenu, AiOutlineClose} from "react-icons/ai";
+import {RemoveScrollBar } from 'react-remove-scroll-bar';
+
 const Navbar = () =>{
     const [nav, setNav] = useState(false);
     return (
@@ -21,7 +23,8 @@ const Navbar = () =>{
 
                     </ul>
                     <div onClick={()=>setNav(!nav)} className={style.mobile_btn}>
-                        {nav ? <AiOutlineClose size={25}/> :  <AiOutlineMenu size={25}/>}
+                        {nav ? [<AiOutlineClose size={25} />, <RemoveScrollBar/>]: <AiOutlineMenu size={25}/>}
+
                     </div>
 
                 </div>
