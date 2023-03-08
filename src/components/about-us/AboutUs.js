@@ -18,7 +18,7 @@ import Img_1 from '../../asserts/img_person.png';
     }
 const textAnimationAbout = {
     hidden:{
-        y:100,
+        y:70,
         opacity: 1,
     },
     visible: custom => ({
@@ -51,7 +51,7 @@ const AboutUs = () =>{
             <motion.section
                 initial="hidden"
                 whileInView="visible"
-                viewport={{amount:0.05,once:false}}
+                viewport={{amount:0.3}}
                 >
             <div className={style.info}>
                 <div className={style.box_who_we}>
