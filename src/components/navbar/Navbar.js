@@ -19,7 +19,7 @@ const Navbar = () =>{
                         <div className={style.logo_image_menu}>
                             <img src={Logo_2} alt="/"/>
                             </div>
-                        <li ><a href='/hom'>Послуги</a> </li>
+                        <li ><a href='/home'>Послуги</a> </li>
                         <li ><a href='/home'>Про нас</a> </li>
                         <li ><a href='/home'>Ціни</a> </li>
                         <li ><a href='/home'>Контакти</a> </li>
