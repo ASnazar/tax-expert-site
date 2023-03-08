@@ -18,7 +18,7 @@ import Img_1 from '../../asserts/img_person.png';
     }
 const textAnimationAbout = {
     hidden:{
-        y:70,
+        y:150,
         opacity: 1,
     },
     visible: custom => ({
