@@ -51,13 +51,43 @@
 .map iframe{
     border-radius: 15px;
 }
-.footerYear{
+
+.footerMenu  {
     color: white;
     width: 70%;
-    margin: 10px 15% ;
+    margin: 10px 15% 0 ;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+
 }
-.footerMenu a {
-    margin-left: 15px;
+.footerMenu a{
+    margin-left: 40px;
+}
+
+
+@media (max-width: 880px) {
+    .footerContAndMAp{
+        display: flex;
+        flex-direction: column;
+    }
+    .footerYear{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .footerMenu{
+        width: 86%;
+        margin: 10px 7% 0 ;
+        justify-content: space-between;
+    }
+    .footerYear h2{
+        text-align: center;
+    }
+    .footerCont{
+        text-align: center;
+    }
+    .footerMenu a{
+
+        margin-left: 0;
+    }
 }

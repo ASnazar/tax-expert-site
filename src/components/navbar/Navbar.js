@@ -1,6 +1,8 @@
 import React, {useState} from 'react';
 import style from './Navbar.module.css';
 import Logo_2 from '../../asserts/logo_2.png';
+import Logo_1 from '../../asserts/logo_1.png';
+
 import {AiOutlineMenu, AiOutlineClose} from "react-icons/ai";
 import {RemoveScrollBar } from 'react-remove-scroll-bar';
 
@@ -10,7 +12,8 @@ const Navbar = () =>{
         <header className={style.header}>
             <div  className='conteiner'>
                 <div className={style.box}>
-                    <div >
+                    <div className={style.logo_image_nav}>
+                        <img src={Logo_1} alt="/"/>
                     </div>
                     <ul className={nav ? [style.menu, style.active].join(' ') : style.menu }>
                         <div className={style.logo_image_menu}>
@@ -28,8 +31,8 @@ const Navbar = () =>{
                     </div>
 
                 </div>
-
             </div>
+
         </header>
     );
 };

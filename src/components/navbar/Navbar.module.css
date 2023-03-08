@@ -2,6 +2,7 @@
     width: 100%;
     position: fixed;
     top:0;
+    margin-bottom: 20px;
 }
 .is-sticky {
     position: fixed;
@@ -58,7 +59,10 @@
     display: none;
 }
 
-
+.logo_image_nav img{
+    width: auto;
+    height: 100px;
+}
 
 @media (max-width: 880px) {
     .mobile_btn{
