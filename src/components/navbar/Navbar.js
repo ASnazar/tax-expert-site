@@ -5,8 +5,16 @@ import Logo_1 from '../../asserts/logo_1.png';
 
 import {AiOutlineMenu, AiOutlineClose} from "react-icons/ai";
 import {RemoveScrollBar } from 'react-remove-scroll-bar';
+import "../../i18next";
+import {useTranslation} from "react-i18next";
+import Localization from "../local/Localization";
 
 const Navbar = () =>{
+
+
+
+    const { t } = useTranslation();
+
     const [nav, setNav] = useState(false);
     return (
         <header className={style.header}>
@@ -15,16 +23,21 @@ const Navbar = () =>{
                     <div className={style.logo_image_nav}>
                         <img src={Logo_1} alt="/"/>
                     </div>
+
                     <ul className={nav ? [style.menu, style.active].join(' ') : style.menu }>
                         <div className={style.logo_image_menu}>
                             <img src={Logo_2} alt="/"/>
                             </div>
-                        <li ><a href='/home'>Послуги</a> </li>
-                        <li ><a href='/home'>Про нас</a> </li>
-                        <li ><a href='/home'>Ціни</a> </li>
-                        <li ><a href='/home'>Контакти</a> </li>
-
+                        <li ><a href='/home'>{t('navbar.home_page')}</a> </li>
+                        <li ><a href='/home'>{t('navbar.aboutUs')}</a> </li>
+                        <li ><a href='/home'>{t('navbar.services')}</a> </li>
+                        <li ><a href='/home'>{t('navbar.contact')}</a> </li>
                     </ul>
+
+                    <Localization />
+
+
+
                     <div onClick={()=>setNav(!nav)} className={style.mobile_btn}>
                         {nav ? [<AiOutlineClose size={25} />, <RemoveScrollBar/>]: <AiOutlineMenu size={25}/>}
 

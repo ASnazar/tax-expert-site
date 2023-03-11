@@ -3,9 +3,11 @@ import {RiFacebookCircleLine,RiLinkedinBoxLine} from "react-icons/ri";
 import {RxInstagramLogo} from "react-icons/rx";
 import {AiFillTwitterCircle} from "react-icons/ai";
 import {MdAlternateEmail} from "react-icons/md";
+import {useTranslation} from "react-i18next";
 
 
 const Footer = () =>{
+    const { t } = useTranslation();
     return (
         <div className={style.footer}>
             <hr/>
@@ -16,9 +18,10 @@ const Footer = () =>{
                 <a href='/home'><MdAlternateEmail size={25}/></a>
                 <a href='/home'><RiLinkedinBoxLine size={25}/></a>
             </div>
+
             <div className={style.footerContAndMAp}>
             <div className={style.footerCont}>
-                <a href="/home"> <h1>Наші контакти</h1></a>
+                <a href="/home"> <h1>{t('home_page')}</h1> <h1>Наші контакти</h1></a>
                 <p><a href="/home">вул. Новозабарська, 2/6  04074 м. Київ</a> </p>
                 <p><a href="/home">+38097755234</a> </p>
                 <p><a href="/home">nazarbalko2@gmail.com</a> </p>
