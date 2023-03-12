@@ -14,14 +14,13 @@ const Localization = () =>{
     return(
 
         <div className={style.lang_menu}>
-            <MdLanguage size={25} className={style.selected_lang}/>
-            {/*//<GrLanguage size={25}   value={{ color: 'white' }}/>*/}
+            <MdLanguage size={30} className={style.selected_lang}/>
             <ul>
                 <li>
-                    <a  className={style.ua}  onClick={() => changeLanguage('ua')}></a>
+                    <a  className={style.ua}  onClick={() => changeLanguage('ua')}/>
                 </li>
                 <li>
-                    <a className={style.en} onClick={() => changeLanguage('en')}></a>
+                    <a className={style.en} onClick={() => changeLanguage('en')}/>
                 </li>
 
             </ul>

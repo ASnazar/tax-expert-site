@@ -1,11 +1,12 @@
 
 .lang_menu {
     width: 60px;
-    text-align: right;
+    text-align: center;
     font-weight: bold;
     margin-top: 25px;
     position: relative;
     z-index: 10;
+
 
 }
 .lang-menu .selected_lang {

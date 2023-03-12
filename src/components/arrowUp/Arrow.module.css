@@ -5,3 +5,7 @@
     color: rgba(255, 255, 255, 0.82);
 
 }
+
+.arrow:hover{
+    color: blue;
+}
