@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/tax-expert-site/static/css/main.ca9a6ec1.css",
-    "main.js": "/tax-expert-site/static/js/main.5d6e54c7.js",
+    "main.css": "/tax-expert-site/static/css/main.d1eb5344.css",
+    "main.js": "/tax-expert-site/static/js/main.f57dde9b.js",
+    "static/media/img_person_2.jpg": "/tax-expert-site/static/media/img_person_2.91141de4d888e510bd25.jpg",
     "static/media/img_person.png": "/tax-expert-site/static/media/img_person.2a7e751effbeb77031cc.png",
     "static/media/logo_2.png": "/tax-expert-site/static/media/logo_2.fc287647e6e7250ac7c9.png",
     "static/media/logo_1.png": "/tax-expert-site/static/media/logo_1.09568d5feeaf7135653a.png",
     "static/media/rocket.svg": "/tax-expert-site/static/media/rocket.6c1c45012aad54577a96.svg",
     "index.html": "/tax-expert-site/index.html",
-    "main.ca9a6ec1.css.map": "/tax-expert-site/static/css/main.ca9a6ec1.css.map",
-    "main.5d6e54c7.js.map": "/tax-expert-site/static/js/main.5d6e54c7.js.map"
+    "static/media/getFetch.cjs": "/tax-expert-site/static/media/getFetch.40f37ddea2378391108f.cjs",
+    "main.d1eb5344.css.map": "/tax-expert-site/static/css/main.d1eb5344.css.map",
+    "main.f57dde9b.js.map": "/tax-expert-site/static/js/main.f57dde9b.js.map"
   },
   "entrypoints": [
-    "static/css/main.ca9a6ec1.css",
-    "static/js/main.5d6e54c7.js"
+    "static/css/main.d1eb5344.css",
+    "static/js/main.f57dde9b.js"
   ]
 }
