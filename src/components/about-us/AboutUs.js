@@ -3,6 +3,7 @@ import {motion} from 'framer-motion';
 import style from "./AboutUs.module.css";
 import Arrow from "../arrowUp/arrow";
 import Img_1 from '../../asserts/img_person.png';
+import Img_2 from '../../asserts/img_person_2.jpg'
 import ModalWindowCalRegister from "../modalWindow/ModalWindowCalRegister";
 
     const textAnimation = {
@@ -80,6 +81,31 @@ const AboutUs = () =>{
                                             </ul>
                                     </div>
                              </div>
+                    </div>
+                    <div className={style.info_who_we}>
+                        <div className={style.our_advantage}>
+                            <h2 >Наші пріоритети</h2>
+                            <ul>
+                                <li >Інтереси Клієнта</li>
+                                <li >Результативність</li>
+                                <li >Конфіденційність</li>
+                                <li >Сумлінність</li>
+                                <li >Репутація</li>
+                            </ul>
+                        </div>
+                        <div className={style.our_advantage}>
+                            <h2 >Хто наш Клієнт</h2>
+
+                            <h4>Основні групи наших Клієнтів виглядають так:
+                            </h4>
+                            <ul>
+                                <li >перш за все, Власник будь-якого бізнесу;</li>
+                                <li >фінансова та юридична служби, орієнтовані на якісний податковий менеджмент;</li>
+                                <li >бухгалтер чи команда, яка потребує оперативної допомоги в реалізації щоденних або ж нестандартних питань;</li>
+                                <li >фізична особа щодо декларування та сплати податків з доходів та оподаткування майна.</li>
+                            </ul>
+                        </div>
+                        <img src={Img_2}  alt="/"/>
                     </div>
                 </div>
                 <Arrow/>

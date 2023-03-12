@@ -18,6 +18,7 @@
     border-radius:30px;
     margin:15px 0;
     margin-left: 5px;
+    padding: 10px;
 }
 .contein h1{
     text-align: center;
@@ -40,7 +41,13 @@
     transition: 0.4s all;
     color: white;
 }
-
+.inp_sub .input{
+    width: 90px;
+}
+.inp_sub{
+    display: flex;
+    justify-content: right;
+}
 .modal_content.active {
     transform: scale(1);
 }

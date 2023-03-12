@@ -1,5 +1,5 @@
 import React from 'react';
-import style from './ModalWindowCalRegist.modyle.css';
+import './ModalWindowCalRegist.modyle.css';
 
 
 
@@ -33,8 +33,8 @@ const ModalWindowCalRegister = ({ active, setActive }) => {
                                 placeholder="Phone number"
                                 className="input"
                            /></label>
-                            <label> Email: <input type="email" name="user_email"  className="input" required/></label>
-                            <input type="submit" value="Send"  className="input"    />
+                            <label> Email: <input type="email" placeholder="Email" name="user_email"  className="input" required/></label>
+                         <div className="inp_sub"><input type="submit" value="Send"  className="input"    /></div>
 
 
                         </form>
